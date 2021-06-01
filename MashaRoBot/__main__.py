@@ -91,7 +91,7 @@ buttons = [
         InlineKeyboardButton(
             text="💾 DEV", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/magiclmush"
+            text="👥 SUPPORT", url="https://t.me/marvelmoviesstuff"
         ),
     ],
 ]
