@@ -141,12 +141,7 @@ def list_chatbot_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 
-__help__ = f"""
-Heya am ZAIRA a powerful group manager by KID OF TELEGRAM. .
- JOIN [@TZKID](https://t.me/tzkid) For my support 
-Join our friendship group @{SUPPORT_CHAT}
-[MY UPDTAES GOES AT KID BOTS](https://t.me/KIDBOTS) 
-"""
+
 
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)
 REMOVE_CHAT_HANDLER = CommandHandler("rmchat", remove_chat)
