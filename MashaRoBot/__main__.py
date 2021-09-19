@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/33afc4921ffae87bfc2a9.jpg), ɪᴍ ᴢᴀɪʀᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/83a4eba3b8c7520e05992.jpg), ɪᴍ ᴢᴀɪʀᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ ʜᴇʟᴘ ꜰᴏʀ ᴍᴏʀᴇ`
 """
 
@@ -98,10 +98,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [ZAIRA](https://telegra.ph/file/33afc4921ffae87bfc2a9.jpg) 
+`ʜɪ.. ɪ'ᴍ` [ZAIRA](https://telegra.ph/file/83a4eba3b8c7520e05992.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-MASHA_IMG = "https://telegra.ph/file/33afc4921ffae87bfc2a9.jpg"
+MASHA_IMG = "https://telegra.ph/file/83a4eba3b8c7520e05992.jpg"
 
 DONATE_STRING = """[HEY GLAD TO THINK TO DONATE CONTACT ME AT TZKID](https://t.me/TZKID) """
 
