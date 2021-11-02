@@ -13,7 +13,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from innexiaBot import (
+from MashaRoBot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -24,15 +24,15 @@ from innexiaBot import (
     dispatcher,
     sw,
 )
-from innexiaBot.__main__ import STATS, TOKEN, USER_INFO
-import innexiaBot.modules.sql.userinfo_sql as sql
-from innexiaBot.modules.disable import DisableAbleCommandHandler
-from innexiaBot.modules.sql.global_bans_sql import is_user_gbanned
-from innexiaBot.modules.sql.afk_sql import is_afk, check_afk_status
-from innexiaBot.modules.sql.users_sql import get_user_num_chats
-from innexiaBot.modules.helper_funcs.chat_status import sudo_plus
-from innexiaBot.modules.helper_funcs.extraction import extract_user
-from innexiaBot import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
+from MashaRoBot.__main__ import STATS, TOKEN, USER_INFO
+import MashaRoBot.modules.sql.userinfo_sql as sql
+from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from MashaRoBot.modules.sql.global_bans_sql import is_user_gbanned
+from MashaRoBot.modules.sql.afk_sql import is_afk, check_afk_status
+from MashaRoBot.modules.sql.users_sql import get_user_num_chats
+from MashaRoBot.modules.helper_funcs.chat_status import sudo_plus
+from MashaRoBot.modules.helper_funcs.extraction import extract_user
+from MashaRoBot import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
@@ -159,7 +159,7 @@ def get_id(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.HTML)
 
 
-@YoneTelethonClient.on(
+@MashaTelethonClient.on(
     events.NewMessage(
         pattern='/ginfo ',
         from_users=(TIGERS or []) + (DRAGONS or []) + (DEMONS or [])))
