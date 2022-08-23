@@ -30,7 +30,7 @@ bleach
 git+https://github.com/MR-JINN-OF-TG/python-markdown2.git
 wikipedia>=1.4.0
 telethon
-telegraph>=1.4.1
+telegraph>=2.1.0
 heroku3
 spamwatch>=0.3.0
 alphabet_detector
